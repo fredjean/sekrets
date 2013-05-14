@@ -15,7 +15,7 @@ DESCRIPTION
 
       ruby -r yaml -e'puts({:api_key => 1234}.to_yaml)' | sekrets write config/settings.yml.enc --key 42
 
-    # create it in your editor
+    # create a new encrypted config file in your editor
 
     sekrets edit config/settings.yml.enc --key 42
 
